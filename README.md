@@ -1,1 +1,64 @@
-# ECE143_FinalProject_Group20
+# ECE143_FinalProject_Group
+Files:
+- preprocessing 
+  - adult_csv_preprocessing.py: Used to preprocess and clean adult.csv
+  - bls_preprocessing.py: Used to preprocess, clean, and combine wm.area.csv, wm.data.1.AllData.csv, wm.occupation.csv, wm.subcell.csv
+  - cost_of_living_preprocessing.py: Preprocesses and cleans cost_of_living_us.csv
+  - irs_preprocessing.py: Preprocesses, cleans, and combines the stateinflow2122.csv and stateoutflow2122.csv
+  - monster_jobs_preprocessing.py: Preprocesses and cleans the monster_com-job_sample.csv
+  - pums_preprocessing.py: Preprocesses and cleans the pums_datasets in chunks due to large size
+  - state_summary_preprocessing.py: Takes the outputs of cost_of_living_preprocessing.py, bls_preprocessing.py, and monster_jobs_preprocessing.py to create a state level summary table
+  - main.py: File that runs all 7 scripts mentioned above and outputs some stats on how many rows were written to each preprocessed file.
+- project_datasets
+  - preprocessed_datasets: folder that holds all the cleaned and preprocessed datasets from the preprocessing scripts 
+  - adult.csv: Adult Census Income dataset
+  - cost_of_living_us.csv: US Cost of Living dataset
+  - monster_com-job_sample.csv: US Jobs on Monster.com 
+  - stateinflow2122.csv: IRS SOI Migration Data Inflow
+  - stateoutflow2122.csv: IRS SOI Migration Data Outflow
+  - wm.area.csv: BLS Wage dataset for State/Metro Info
+  - wm.data.1.AllData.csv: BLS Wage dataset used for actual wage amounts of occupations
+  - wm.occupation.csv: BLS Wage dataset that connected series ID to occupation
+  - wm.subcell.csv: BLS Wage dataset used to filter to summary-level records only 
+  - PUMS datasets too large for github (please refer to instructions for how to get them)
+
+### Libraries Used
+- Preprocessing and cleaning
+  - numpy
+  - pandas
+  - pathlib
+- Visualization and Analysis
+  - numpy
+  - pandas
+  - matplotlib.pyplot
+  - scipy.stats
+  - IPython.display
+
+## How to run Code
+- Ensure the file structure is as follows:
+  - project_datasets
+    - preprocessed_datasets
+    - adult.csv
+    - cost_of_living_us.csv
+    - monster_com-job_sample.csv 
+    - stateinflow2122.csv
+    - stateoutflow2122.csv
+    - wm.area.csv
+    - wm.data.1.AllData.csv
+    - wm.occupation.csv
+    - wm.subcell.csv 
+    - PUMS datasets --> https://drive.google.com/file/d/1HEcKvdWIvl4exIkgwxQvOfVwmIroxn4W/view?usp=sharing
+      - Please download the zip file from this google drive link
+      - Extract the contents 
+        - Contains two csv files: psam_pusa.csv and psam_pusb.csv
+      - Ensure these are in the project_datasets folder
+  - adult_csv_preprocessing.py
+  - bls_preprocessing.py
+  - cost_of_living_preprocessing.py
+  - irs_preprocessing.py
+  - monster_jobs_preprocessing.py
+  - pums_preprocessing.py
+  - state_summary_preprocessing.py
+  - main.py
+- For data_preprocessing, please run the `python main.py` in the terminal with the correct path to the code.
+- For visualization the notebook can be ran separately
