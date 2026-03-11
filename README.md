@@ -62,3 +62,21 @@ Files:
   - main.py
 - For data_preprocessing, please run the `python main.py` in the terminal with the correct path to the code.
 - For visualization the notebook can be ran separately
+
+### Data Reference Links:
+- Adult Census Income:
+  - https://www.kaggle.com/datasets/uciml/adult-census-income
+- BLS Wages
+  - https://www.kaggle.com/datasets/bls/wage-estimates
+- US jobs on Monster.com
+  - https://www.kaggle.com/datasets/PromptCloudHQ/us-jobs-on-monstercom
+- US Cost of Living Dataset
+  - https://www.kaggle.com/datasets/asaniczka/us-cost-of-living-dataset-3171-counties
+- IRS SOI Migration Data
+  - https://www.irs.gov/statistics/soi-tax-stats-migration-data-2021-2022
+  - csv files
+    - State-to-state outflow
+    - State-to-state inflow
+- ACS PUMS Data
+  - https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/
+  - csv_pus.zip (pus --> person, US)
