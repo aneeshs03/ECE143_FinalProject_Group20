@@ -1,5 +1,5 @@
 # ECE143_FinalProject_Group
-Files:
+## Files:
 - preprocessing 
   - adult_csv_preprocessing.py: Used to preprocess and clean adult.csv
   - bls_preprocessing.py: Used to preprocess, clean, and combine wm.area.csv, wm.data.1.AllData.csv, wm.occupation.csv, wm.subcell.csv
