@@ -68,6 +68,7 @@ project/
 ```
 
 - For data_preprocessing, please run the `python main.py` in the terminal with the correct path to the code.
+  - The preprocessed datasets will then be populated into the `preprocessed_datasets/` folder
 - For visualization the notebook can be ran separately
 
 ### Data Reference Links:
