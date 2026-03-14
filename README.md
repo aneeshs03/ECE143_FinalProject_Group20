@@ -42,6 +42,7 @@
       - Ensure these are in the project_datasets folder
 
 - Ensure the file structure is as follows:
+```plaintext
 project/
 ├── project_datasets/
 │   ├── preprocessed_datasets/
@@ -64,6 +65,7 @@ project/
 ├── pums_preprocessing.py
 ├── state_summary_preprocessing.py
 └── main.py
+```
 
 - For data_preprocessing, please run the `python main.py` in the terminal with the correct path to the code.
 - For visualization the notebook can be ran separately
