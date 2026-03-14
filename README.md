@@ -1,4 +1,4 @@
-# ECE143_FinalProject_Group
+# ECE143_FinalProject_Group_20
 ## Files:
 - preprocessing 
   - adult_csv_preprocessing.py: Used to preprocess and clean adult.csv
